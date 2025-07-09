@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Analysis Results</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Resume Analysis</h1>
+      <!-- <p><strong>Name:</strong> {{ data.name }}</p> -->
+      <p><strong>Email:</strong> {{ data.email }}</p>
+      <p><strong>Phone:</strong> {{ data.phone }}</p>
+      <p><strong>Skills:</strong> {{ data.skills | join(", ") }}</p>
+      <p><strong>Score:</strong> {{ data.score }}%</p>
+      <p><strong>Suggestions:</strong> {{ data.suggestions }}</p>
+    <a href="/">← Analyze Another</a>
+  </div>
+</body>
+</html>
