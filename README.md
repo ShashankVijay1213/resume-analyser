@@ -10,5 +10,5 @@ A web-based resume analyzer built with Python (Flask) and HTML/CSS. Upload your 
 
 ### 📸 Demo
 
-![Homepage Screenshot](1.png)
-![Projects Section](2.png)
+![Homepage Screenshot](3.png)
+![Projects Section](4.png)
